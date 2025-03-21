@@ -11,14 +11,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call('StatusTableSeeder');
-        $this->call('UsersTableSeeder');
-        $this->call('IndustriesTableSeeder');
-        $this->call('DepartmentsTableSeeder');
-        $this->call('SettingsTableSeeder');
-        $this->call('PermissionsTableSeeder');
-        $this->call('RolesTablesSeeder');
-        $this->call('RolePermissionTableSeeder');
-        $this->call('UserRoleTableSeeder');
+        $this->call('StatusTableSeeder'); //oui
+        $this->call('UsersTableSeeder'); //oui
+        $this->call('IndustriesTableSeeder'); //oui
+        $this->call('DepartmentsTableSeeder'); //oui
+        $this->call('SettingsTableSeeder'); //oui
+        $this->call('PermissionsTableSeeder'); //oui
+        $this->call('RolesTablesSeeder'); //oui
+        $this->call('RolePermissionTableSeeder'); //oui
+        $this->call('UserRoleTableSeeder'); //oui
     }
 }

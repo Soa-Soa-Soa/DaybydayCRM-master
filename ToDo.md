@@ -44,7 +44,7 @@ _In UsersController :
         }
 
 [x] Redirect error 
-_Redirection error after absence detroy
+_Redirection error after absence destroy
     -return response("OK"); => Session::flash('flash_message', __('Absence      deleted'));
     return redirect()->back();
 
