@@ -103,6 +103,7 @@ class AbsenceController extends Controller
         }
         $absence->delete();
 
-        return response("OK");
+        Session::flash('flash_message', __('Absence deleted'));
+        return redirect()->back();
     }
 }

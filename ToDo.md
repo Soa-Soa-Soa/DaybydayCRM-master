@@ -43,6 +43,11 @@ _In UsersController :
             ->withDepartments(Department::pluck('name', 'id'));
         }
 
+[x] Redirect error 
+_Redirection error after absence detroy
+    -return response("OK"); => Session::flash('flash_message', __('Absence      deleted'));
+    return redirect()->back();
+
 ## New functions
 [] Data import
 [] Reinit db
