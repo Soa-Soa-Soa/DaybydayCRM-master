@@ -43,6 +43,11 @@ _In UsersController :
             ->withDepartments(Department::pluck('name', 'id'));
         }
 
+## New functions
+[] Data import
+[] Reinit db
+
+
 
 
 
