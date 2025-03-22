@@ -203,7 +203,7 @@ class UsersController extends Controller
             $user->save();
         }
         catch (Exception $e) {
-            Session::flash('flash_message', __('Email '.$user->email.' already exists'));
+            Session::flash('flash_message_warning', __('Email '.$user->email.' already exists'));
             return view('users.create')
             ->withRoles($this->allRoles()->pluck('display_name', 'id'))
             ->withDepartments(Department::pluck('name', 'id'));
