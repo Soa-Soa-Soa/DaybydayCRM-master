@@ -50,7 +50,13 @@ _Redirection error after absence destroy
 
 ## New functions
 [] Data import
-[] Reinit db
+_Create function for importing data from csv files
+
+[x] Reinit db
+_Create script sql to reset data
+
+[x] Extract table
+_Extract table from db
 
 
 
