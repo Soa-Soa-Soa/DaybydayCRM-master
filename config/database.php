@@ -47,8 +47,8 @@ return [
     */
 
     'connections' => [
-<<<<<<< HEAD
-=======
+
+
 
         'sqlite' => [
             'driver'   => 'sqlite',
@@ -56,7 +56,7 @@ return [
             'prefix'   => '',
         ],
 
->>>>>>> c6
+
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),
@@ -69,8 +69,8 @@ return [
             'strict'    => false,
         ],
 
-<<<<<<< HEAD
-=======
+
+
         'pgsql' => [
             'driver'   => 'pgsql',
             'host'     => env('DB_HOST', 'localhost'),
@@ -92,7 +92,7 @@ return [
             'prefix'   => '',
         ],
 
->>>>>>> c6
+
     ],
 
     /*

@@ -14,12 +14,12 @@ class AddLanguageOptions extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-<<<<<<< HEAD
+
             $table->dropColumn('card_brand');
             $table->dropColumn('stripe_id');
             $table->dropColumn('card_last_four');
             $table->dropColumn('trial_ends_at');
-=======
+
             if (Schema::hasColumn('users', 'card_brand')) {
                 $table->dropColumn('card_brand');   
             }
@@ -32,7 +32,7 @@ class AddLanguageOptions extends Migration
             if (Schema::hasColumn('users', 'trial_ends_at')) {
                 $table->dropColumn('trial_ends_at');
             }
->>>>>>> c6
+
             $table->string("language", 2)->default("EN")->after("remember_token");
         });
 

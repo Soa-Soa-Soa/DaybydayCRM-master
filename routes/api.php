@@ -1,13 +1,10 @@
 <?php
 
 use Illuminate\Http\Request;
-<<<<<<< HEAD
-=======
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ApiController;
 use App\Http\Controllers\RestController;
 use App\Http\Controllers\Api\DashboardController;
->>>>>>> c6
 
 /*
 |--------------------------------------------------------------------------
@@ -20,12 +17,6 @@ use App\Http\Controllers\Api\DashboardController;
 |
 */
 
-<<<<<<< HEAD
-Route::group(['namespace' => 'App\Api\v1\Controllers'], function () {
-    Route::group(['middleware' => 'auth:api'], function () {
-        Route::get('users', ['uses' => 'UserController@index']);
-    });
-=======
 // Routes publiques
 Route::post('/login', [ApiController::class, 'login']);
 Route::get('/clients', [ApiController::class, 'getAllClients']);
@@ -63,5 +54,4 @@ Route::group([], function () {
     Route::get('/clients', [RestController::class, 'getAllClients']);
     Route::get('/clients/{id}', [RestController::class, 'clientShow']);
     Route::get('/leads', [RestController::class, 'getAllLeads']);
->>>>>>> c6
 });

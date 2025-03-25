@@ -2,18 +2,18 @@
     <div class="panel panel-primary contact-header-box">
         <div class="panel-body">
             @if(\Route::getCurrentRoute()->getName() != "users.show")
-<<<<<<< HEAD
+
             <a href="{{route('users.show', $contact->external_id)}}"><i class="ion ion-ios-redo " title="{{ __('Go to user') }}" style="
-=======
+
             <a href="{{route('users.show', isset($contact) ? $contact->external_id : $user->external_id)}}"><i class="ion ion-ios-redo " title="{{ __('Go to user') }}" style="
->>>>>>> c6
+
                 float: right;
                 margin-right: 1em;
                 color:#61788b;
                 "></i></a>
             @endif
             <div class="col-sm-2">
-<<<<<<< HEAD
+
                 <div class="profilepic">
                     {{-- @php
                         dd($contact->avatar);
@@ -24,24 +24,24 @@
                         <img class="profilepicsize" src="{{ asset('images/default-avatar.png') }}" alt='{{ $contact->name }}'/>
                     @endif
                 </div>
-=======
+
                 <div class="profilepic"><img class="profilepicsize" src="{{ isset($contact) ? $contact->avatar : $user->avatar }}"/></div>
->>>>>>> c6
+
             </div>
             <div class="col-sm-8">
             <?php isset($changeUser) ?: $changeUser = false ?>
             @if($changeUser == false )
-<<<<<<< HEAD
+
                     <p class="name-text">{{ $contact->name }}</p>
             @else
 
                <span id="assignee-user" class="siderbar-list-value name-text"> {{ $contact->name }}
-=======
+
                     <p class="name-text">{{ isset($contact) ? $contact->name : $user->name }}</p>
             @else
 
                <span id="assignee-user" class="siderbar-list-value name-text"> {{ isset($contact) ? $contact->name : $user->name }}
->>>>>>> c6
+
                    @if(Entrust::can('client-update'))
                        <i class="icon ion-md-create"></i>
                    @endif
@@ -57,11 +57,11 @@
                                     data-container="body"
                                     onchange="this.form.submit()">
                                 @foreach(\App\Models\User::all()->pluck('nameAndDepartment', 'external_id') as $key => $user)
-<<<<<<< HEAD
+
                                     <option {{$contact->external_id == $key ? 'selected' : ''}} data-tokens="{{$user}}" value="{{$key}}">{{$user}}</option>
-=======
+
                                     <option {{(isset($contact) ? $contact->external_id : $user->external_id) == $key ? 'selected' : ''}} data-tokens="{{$user}}" value="{{$key}}">{{$user}}</option>
->>>>>>> c6
+
                                 @endforeach
                             </select>
                         </form>
@@ -69,7 +69,7 @@
                 @endif
             @endif
                 <p class="department-text">
-<<<<<<< HEAD
+
                     {{$contact->department()->first()->name}}
                 </p>
                 <!--MAIL-->
@@ -90,7 +90,7 @@
                     @if($contact->secondary_number)
                         <!--Personal Phone-->
                             <a href="tel:{{ $contact->secondary_number }}">{{ $contact->secondary_number }}</a>
-=======
+
                     {{isset($contact) ? $contact->department()->first()->name : $user->department()->first()->name}}
                 </p>
                 <!--MAIL-->
@@ -111,7 +111,7 @@
                     @if(isset($contact) ? $contact->secondary_number : $user->secondary_number)
                         <!--Personal Phone-->
                             <a href="tel:{{isset($contact) ? $contact->secondary_number : $user->secondary_number}}">{{isset($contact) ? $contact->secondary_number : $user->secondary_number}}</a>
->>>>>>> c6
+
                     </p>
                 @endif
             </div>

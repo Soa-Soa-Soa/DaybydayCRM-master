@@ -68,8 +68,8 @@ class InvoiceLine extends Model
         $money = new Money($this->price);
         return app(MoneyConverter::class, ['money' => $money])->format();
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> c6
+
+
+
 }

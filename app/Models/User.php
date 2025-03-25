@@ -12,20 +12,20 @@ use App\Api\v1\Models\Token;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Facades\Storage;
 use Laravel\Cashier\Billable;
-<<<<<<< HEAD
-=======
+
+
 use Laravel\Sanctum\HasApiTokens;
 use Laravel\Sanctum\PersonalAccessToken;
->>>>>>> c6
+
 use Carbon\Carbon;
 
 class User extends Authenticatable
 {
-<<<<<<< HEAD
+
     use Notifiable, EntrustUserTrait,  SoftDeletes, Billable;
-=======
+
     use Notifiable, EntrustUserTrait,  SoftDeletes, Billable, HasApiTokens;
->>>>>>> c6
+
 
     public function restore()
     {
@@ -67,8 +67,8 @@ class User extends Authenticatable
 
     protected $primaryKey = 'id';
 
-<<<<<<< HEAD
-=======
+
+
     /**
      * The model to use for API tokens.
      *
@@ -76,7 +76,7 @@ class User extends Authenticatable
      */
     protected $personalAccessTokenModel = PersonalAccessToken::class;
 
->>>>>>> c6
+
     public function tasks()
     {
         return $this->hasMany(Task::class, 'user_assigned_id', 'id');
@@ -114,11 +114,11 @@ class User extends Authenticatable
 
     public function tokens()
     {
-<<<<<<< HEAD
+
         return $this->hasMany(Token::class, 'user_id', 'id');
-=======
+
         return $this->hasMany(PersonalAccessToken::class, 'tokenable_id', 'id');
->>>>>>> c6
+
     }
 
     public function canChangePasswordOn(User $user)

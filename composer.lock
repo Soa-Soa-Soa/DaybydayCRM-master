@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
+
     "content-hash": "08a4436e7406b05b48ce431e6d157ae4",
-=======
+
     "content-hash": "47fc3ec50877274a350456161c71e9d2",
->>>>>>> c6
+
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -164,7 +164,7 @@
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
-<<<<<<< HEAD
+
             "version": "2.1.0",
             "source": {
                 "type": "git",
@@ -185,7 +185,7 @@
             },
             "require-dev": {
                 "doctrine/dbal": "^3.7.0",
-=======
+
             "version": "1.0.0",
             "source": {
                 "type": "git",
@@ -206,7 +206,7 @@
             },
             "require-dev": {
                 "doctrine/dbal": ">=2.0.0",
->>>>>>> c6
+
                 "nesbot/carbon": "^2.71.0 || ^3.0.0",
                 "phpunit/phpunit": "^10.3"
             },
@@ -236,11 +236,11 @@
             ],
             "support": {
                 "issues": "https://github.com/CarbonPHP/carbon-doctrine-types/issues",
-<<<<<<< HEAD
+
                 "source": "https://github.com/CarbonPHP/carbon-doctrine-types/tree/2.1.0"
-=======
+
                 "source": "https://github.com/CarbonPHP/carbon-doctrine-types/tree/1.0.0"
->>>>>>> c6
+
             },
             "funding": [
                 {
@@ -256,9 +256,9 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
+
             "time": "2023-12-11T17:09:12+00:00"
-=======
+
             "time": "2023-10-01T12:35:29+00:00"
         },
         {
@@ -341,7 +341,7 @@
                 }
             ],
             "time": "2024-09-19T14:15:21+00:00"
->>>>>>> c6
+
         },
         {
             "name": "doctrine/inflector",
@@ -954,7 +954,7 @@
         },
         {
             "name": "firebase/php-jwt",
-<<<<<<< HEAD
+
             "version": "v6.10.0",
             "source": {
                 "type": "git",
@@ -974,7 +974,7 @@
                 "guzzlehttp/guzzle": "^6.5||^7.4",
                 "phpspec/prophecy-phpunit": "^2.0",
                 "phpunit/phpunit": "^9.5",
-=======
+
             "version": "v6.4.0",
             "source": {
                 "type": "git",
@@ -994,7 +994,7 @@
                 "guzzlehttp/guzzle": "^6.5||^7.4",
                 "phpspec/prophecy-phpunit": "^1.1",
                 "phpunit/phpunit": "^7.5||^9.5",
->>>>>>> c6
+
                 "psr/cache": "^1.0||^2.0",
                 "psr/http-client": "^1.0",
                 "psr/http-factory": "^1.0"
@@ -1033,15 +1033,15 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-<<<<<<< HEAD
+
                 "source": "https://github.com/firebase/php-jwt/tree/v6.10.0"
             },
             "time": "2023-12-01T16:26:39+00:00"
-=======
+
                 "source": "https://github.com/firebase/php-jwt/tree/v6.4.0"
             },
             "time": "2023-02-09T21:01:23+00:00"
->>>>>>> c6
+
         },
         {
             "name": "google/apiclient",
@@ -1115,7 +1115,7 @@
         },
         {
             "name": "google/apiclient-services",
-<<<<<<< HEAD
+
             "version": "v0.355.0",
             "source": {
                 "type": "git",
@@ -1130,7 +1130,7 @@
             },
             "require": {
                 "php": "^7.4||^8.0"
-=======
+
             "version": "v0.302.0",
             "source": {
                 "type": "git",
@@ -1145,7 +1145,7 @@
             },
             "require": {
                 "php": ">=5.6"
->>>>>>> c6
+
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7||^8.5.13"
@@ -1170,15 +1170,15 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-<<<<<<< HEAD
+
                 "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.355.0"
             },
             "time": "2024-05-11T01:02:11+00:00"
-=======
+
                 "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.302.0"
             },
             "time": "2023-05-16T01:08:12+00:00"
->>>>>>> c6
+
         },
         {
             "name": "google/auth",
@@ -1903,8 +1903,8 @@
             "time": "2025-01-24T15:41:25+00:00"
         },
         {
-<<<<<<< HEAD
-=======
+
+
             "name": "laravel/sanctum",
             "version": "v2.15.1",
             "source": {
@@ -1970,7 +1970,7 @@
             "time": "2022-04-08T13:39:49+00:00"
         },
         {
->>>>>>> c6
+
             "name": "laravel/tinker",
             "version": "v2.10.1",
             "source": {
@@ -2258,8 +2258,8 @@
             "time": "2022-01-13T17:18:13+00:00"
         },
         {
-<<<<<<< HEAD
-=======
+
+
             "name": "league/csv",
             "version": "9.0.0",
             "source": {
@@ -2329,7 +2329,7 @@
             "time": "2017-08-18T10:27:55+00:00"
         },
         {
->>>>>>> c6
+
             "name": "league/flysystem",
             "version": "1.0.46",
             "source": {
@@ -2534,8 +2534,8 @@
             "time": "2020-07-25T15:56:04+00:00"
         },
         {
-<<<<<<< HEAD
-=======
+
+
             "name": "maatwebsite/excel",
             "version": "3.1.56",
             "source": {
@@ -2861,7 +2861,7 @@
             "time": "2022-12-02T22:51:35+00:00"
         },
         {
->>>>>>> c6
+
             "name": "mews/purifier",
             "version": "3.4.3",
             "source": {
@@ -3194,8 +3194,8 @@
             "time": "2024-09-04T18:46:31+00:00"
         },
         {
-<<<<<<< HEAD
-=======
+
+
             "name": "myclabs/php-enum",
             "version": "1.8.5",
             "source": {
@@ -3259,7 +3259,7 @@
             "time": "2025-01-14T11:49:03+00:00"
         },
         {
->>>>>>> c6
+
             "name": "nesbot/carbon",
             "version": "2.73.0",
             "source": {
@@ -3368,7 +3368,7 @@
         },
         {
             "name": "nikic/php-parser",
-<<<<<<< HEAD
+
             "version": "v5.4.0",
             "source": {
                 "type": "git",
@@ -3390,7 +3390,7 @@
             "require-dev": {
                 "ircmaxell/php-yacc": "^0.0.7",
                 "phpunit/phpunit": "^9.0"
-=======
+
             "version": "v4.19.4",
             "source": {
                 "type": "git",
@@ -3410,7 +3410,7 @@
             "require-dev": {
                 "ircmaxell/php-yacc": "^0.0.7",
                 "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
->>>>>>> c6
+
             },
             "bin": [
                 "bin/php-parse"
@@ -3418,11 +3418,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
+
                     "dev-master": "5.0-dev"
-=======
+
                     "dev-master": "4.9-dev"
->>>>>>> c6
+
                 }
             },
             "autoload": {
@@ -3446,15 +3446,15 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-<<<<<<< HEAD
+
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.4.0"
             },
             "time": "2024-12-30T11:07:19+00:00"
-=======
+
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.19.4"
             },
             "time": "2024-09-29T15:01:53+00:00"
->>>>>>> c6
+
         },
         {
             "name": "opis/closure",
@@ -3684,7 +3684,7 @@
         },
         {
             "name": "phenx/php-svg-lib",
-<<<<<<< HEAD
+
             "version": "0.3.4",
             "source": {
                 "type": "git",
@@ -3703,7 +3703,7 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
-=======
+
             "version": "v0.3.3",
             "source": {
                 "type": "git",
@@ -3721,7 +3721,7 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.5|^6.5"
->>>>>>> c6
+
             },
             "type": "library",
             "autoload": {
@@ -3743,11 +3743,11 @@
             "homepage": "https://github.com/PhenX/php-svg-lib",
             "support": {
                 "issues": "https://github.com/PhenX/php-svg-lib/issues",
-<<<<<<< HEAD
+
                 "source": "https://github.com/PhenX/php-svg-lib/tree/0.3.4"
             },
             "time": "2021-10-18T02:13:32+00:00"
-=======
+
                 "source": "https://github.com/PhenX/php-svg-lib/tree/master"
             },
             "time": "2019-09-11T20:02:13+00:00"
@@ -3855,7 +3855,7 @@
                 "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/1.18.0"
             },
             "time": "2021-05-31T18:21:15+00:00"
->>>>>>> c6
+
         },
         {
             "name": "phpoption/phpoption",
@@ -4207,7 +4207,7 @@
         },
         {
             "name": "psr/container",
-<<<<<<< HEAD
+
             "version": "1.1.2",
             "source": {
                 "type": "git",
@@ -4222,7 +4222,7 @@
             },
             "require": {
                 "php": ">=7.4.0"
-=======
+
             "version": "1.1.1",
             "source": {
                 "type": "git",
@@ -4237,7 +4237,7 @@
             },
             "require": {
                 "php": ">=7.2.0"
->>>>>>> c6
+
             },
             "type": "library",
             "autoload": {
@@ -4266,15 +4266,15 @@
             ],
             "support": {
                 "issues": "https://github.com/php-fig/container/issues",
-<<<<<<< HEAD
+
                 "source": "https://github.com/php-fig/container/tree/1.1.2"
             },
             "time": "2021-11-05T16:50:12+00:00"
-=======
+
                 "source": "https://github.com/php-fig/container/tree/1.1.1"
             },
             "time": "2021-03-05T17:36:06+00:00"
->>>>>>> c6
+
         },
         {
             "name": "psr/event-dispatcher",
@@ -4327,8 +4327,8 @@
             "time": "2019-01-08T18:20:26+00:00"
         },
         {
-<<<<<<< HEAD
-=======
+
+
             "name": "psr/http-client",
             "version": "1.0.3",
             "source": {
@@ -4436,7 +4436,7 @@
             "time": "2024-04-15T12:06:14+00:00"
         },
         {
->>>>>>> c6
+
             "name": "psr/http-message",
             "version": "1.1",
             "source": {
@@ -4592,7 +4592,7 @@
         },
         {
             "name": "psy/psysh",
-<<<<<<< HEAD
+
             "version": "v0.12.8",
             "source": {
                 "type": "git",
@@ -4603,7 +4603,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bobthecow/psysh/zipball/85057ceedee50c49d4f6ecaff73ee96adb3b3625",
                 "reference": "85057ceedee50c49d4f6ecaff73ee96adb3b3625",
-=======
+
             "version": "v0.11.22",
             "source": {
                 "type": "git",
@@ -4614,23 +4614,23 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bobthecow/psysh/zipball/128fa1b608be651999ed9789c95e6e2a31b5802b",
                 "reference": "128fa1b608be651999ed9789c95e6e2a31b5802b",
->>>>>>> c6
+
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-tokenizer": "*",
-<<<<<<< HEAD
+
                 "nikic/php-parser": "^5.0 || ^4.0",
                 "php": "^8.0 || ^7.4",
                 "symfony/console": "^7.0 || ^6.0 || ^5.0 || ^4.0 || ^3.4",
                 "symfony/var-dumper": "^7.0 || ^6.0 || ^5.0 || ^4.0 || ^3.4"
-=======
+
                 "nikic/php-parser": "^4.0 || ^3.1",
                 "php": "^8.0 || ^7.0.8",
                 "symfony/console": "^6.0 || ^5.0 || ^4.0 || ^3.4",
                 "symfony/var-dumper": "^6.0 || ^5.0 || ^4.0 || ^3.4"
->>>>>>> c6
+
             },
             "conflict": {
                 "symfony/console": "4.4.37 || 5.3.14 || 5.3.15 || 5.4.3 || 5.4.4 || 6.0.3 || 6.0.4"
@@ -4641,12 +4641,12 @@
             "suggest": {
                 "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
                 "ext-pdo-sqlite": "The doc command requires SQLite to work.",
-<<<<<<< HEAD
+
                 "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well."
-=======
+
                 "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
                 "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history."
->>>>>>> c6
+
             },
             "bin": [
                 "bin/psysh"
@@ -4658,11 +4658,11 @@
                     "forward-command": false
                 },
                 "branch-alias": {
-<<<<<<< HEAD
+
                     "dev-main": "0.12.x-dev"
-=======
+
                     "dev-0.11": "0.11.x-dev"
->>>>>>> c6
+
                 }
             },
             "autoload": {
@@ -4694,15 +4694,15 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-<<<<<<< HEAD
+
                 "source": "https://github.com/bobthecow/psysh/tree/v0.12.8"
             },
             "time": "2025-03-16T03:05:19+00:00"
-=======
+
                 "source": "https://github.com/bobthecow/psysh/tree/v0.11.22"
             },
             "time": "2023-10-14T21:56:36+00:00"
->>>>>>> c6
+
         },
         {
             "name": "ralouphie/getallheaders",

@@ -22,7 +22,7 @@
 
 
     /* Paginator PUBLIC CLASS DEFINITION
-     * ================================= */
+     * ===== */
 
     /**
      * Boostrap Paginator Constructor
@@ -509,7 +509,7 @@
 
 
     /* TYPEAHEAD PLUGIN DEFINITION
-     * =========================== */
+     * ====== */
 
     old = $.fn.bootstrapPaginator;
 

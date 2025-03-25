@@ -3,7 +3,7 @@
     <img src="https://user-images.githubusercontent.com/15610490/69175894-ed771300-0b04-11ea-9ecd-a5ad6e3d8877.png"  height="100" />
 </a>
 
-======================
+=
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bottelet/DaybydayCRM/Run%20tests?style=for-the-badge)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/bottelet/DaybydayCRM?label=Latest%20version&style=for-the-badge)
@@ -67,8 +67,8 @@ DaybydayCRM from version 2.0.0 and up is open-sourced software licensed under th
 [FAQ GPL](https://www.gnu.org/licenses/gpl-faq.html#DoesFreeSoftwareMeanUsingTheGPL)
 
 DaybydayCRM under and not included version 2.0.0 is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT)
-<<<<<<< HEAD
-=======
+
+
 
 ### run the application
 composer install
@@ -121,4 +121,4 @@ Laravel vérifie les credentials (email/password)
 Si valide, un token personnel est créé via Sanctum
 Ce token est renvoyé au client (Spring Boot dans notre cas)
 Les requêtes suivantes utiliseront ce token pour l'authentification
->>>>>>> c6
+

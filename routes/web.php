@@ -20,15 +20,15 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('dashboard', 'PagesController@dashboard')->name('dashboard');
 
     /**
-<<<<<<< HEAD
-=======
+
+
      * Generate data
      */
     Route::get('/', 'DatagenerateController@datagenerate');
     Route::get('datagenerate', 'DatagenerateController@datagenerate')->name('datagenerate');
 
     /**
->>>>>>> c6
+
      * Users
      */
     Route::group(['prefix' => 'users'], function () {
@@ -106,11 +106,11 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('leads', 'LeadsController');
     Route::post('/comments/{type}/{external_id}', 'CommentController@store')->name('comments.create');
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> c6
+
+
+
     /**
      * Products
      */
@@ -230,8 +230,8 @@ Route::group(['middleware' => ['auth']], function () {
     });
 
     /**
-<<<<<<< HEAD
-=======
+
+
      * Generate data
      */
     Route::group(['prefix' => 'generatedata'], function () {
@@ -242,7 +242,7 @@ Route::group(['middleware' => ['auth']], function () {
         Route::delete('/{appointment}', 'AppointmentsController@destroy')->name('appointments.destroy');
     });
     /**
->>>>>>> c6
+
      * Absence
      */
     Route::group(['prefix' => 'absences'], function () {
@@ -254,12 +254,12 @@ Route::group(['middleware' => ['auth']], function () {
     });
 });
 
-<<<<<<< HEAD
+
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/dropbox-token', 'CallbackController@dropbox')->name('dropbox.callback');
     Route::get('/googledrive-token', 'CallbackController@googleDrive')->name('googleDrive.callback');
 });
-=======
+
 Route::group(['middleware' => ['auth', 'admin']], function () {
     Route::get('/data', 'DataController@index')->name('data.index');
     Route::post('/data/import', 'DataController@importFile')->name('data.import');
@@ -268,4 +268,4 @@ Route::group(['middleware' => ['auth', 'admin']], function () {
 });
 Route::get('/dropbox-token', 'CallbackController@dropbox')->name('dropbox.callback');
 Route::get('/googledrive-token', 'CallbackController@googleDrive')->name('googleDrive.callback');
->>>>>>> c6
+
