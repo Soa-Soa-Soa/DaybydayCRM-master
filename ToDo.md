@@ -58,6 +58,82 @@ _Create script sql to reset data
 [x] Extract table
 _Extract table from db
 
+<<<<<<< HEAD
+=======
+[x] Payment verification
+-Verify if amount requested is not greater tahn amount due
+-Add an error message if amount requested is greater than tahn amount due
+
+## functions
+[] Delete all data
+    -create new controller datacontroller for the function
+    -create new route for the function
+    -create button clear data 
+[] Data import
+    -install php extension
+    -create new migration for table authorizations
+    -create function import file : csv, xlx, ...
+    -create new navigation import data
+    -create new page for data import
+    -create button import function
+[] Generate data
+    -create function generate data in datacontroller
+    -create new navigation generate data 
+    -create new page for data generate
+    -create button generate function 
+    -configure root(redirection controller, get function in datacontroller)
+
+
+### Create API configuration
+[] Create API configuration
+    -import routes/api.php
+
+### Login with NewApp
+[] Login with NewApp
+    -create new page for login with NewApp
+    -edit app.php (provider)
+    -add middleware Sanctum in kernel.php
+    -create class Model PersonalAccessToken
+    -Modif AppServiceProvider
+
+[x] Configuration de base
+    - [x] Installation de Sanctum
+    - [x] Publication des configurations
+    - [x] Migration des tables
+
+[x] Modèles et Controllers
+    - [x] Création du modèle PersonalAccessToken
+    - [x] Modification du modèle User
+    - [x] Configuration du ApiController
+
+[x] Configuration
+    - [x] Configuration de Sanctum (sanctum.php)
+    - [x] Modification de AppServiceProvider
+    - [x] Configuration des routes API
+
+[x] Sécurité
+    - [x] Middleware Sanctum dans Kernel.php
+    - [x] Configuration CORS pour l'API
+    - [x] Gestion des tokens d'authentification
+
+[] New App
+    _[] Dashboard
+        - [x] Client data
+        - [] Project
+        - Task
+        - Offer
+        - Invoice
+        - Payment
+        - 3 Graphics
+        - Total type data
+            . Details on clique
+            . Details update
+                > Update payment amount
+                > Delete payment
+    _[] Reduction rate
+        - Add a global rate for invoice
+
+>>>>>>> c6
 
 
 

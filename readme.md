@@ -67,3 +67,58 @@ DaybydayCRM from version 2.0.0 and up is open-sourced software licensed under th
 [FAQ GPL](https://www.gnu.org/licenses/gpl-faq.html#DoesFreeSoftwareMeanUsingTheGPL)
 
 DaybydayCRM under and not included version 2.0.0 is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT)
+<<<<<<< HEAD
+=======
+
+### run the application
+composer install
+copy .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan db:seed
+npm install
+npm run dev
+php artisan serve
+### import data
+php artisan db:seed --class=DummyDatabaseSeeder 
+### clean all data
+php artisan migrate:fresh --seed
+### Edit admin
+php artisan db:seed --class=UsersTableSeeder
+
+### creation API 
+php artisan make:controller name of controller --api
+
+### Dependance Laravel Sanctum
+composer require laravel/sanctum
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+php artisan migrate
+
+### clear cache Laravel
+php artisan config:clear
+php artisan cache:clear
+php artisan route:clear
+
+### Régénérer l'autoloader de composer
+composer dump-autoload
+
+### Configuration de l'authentification API :
+Installation de Laravel Sanctum : composer require laravel/sanctum
+Publication des configurations : php artisan vendor:publish
+Migration de la table des tokens : php artisan migrate
+### Fichiers créés/modifiés :
+Nouveaux fichiers :
+app/Models/PersonalAccessToken.php : Modèle pour gérer les tokens d'API
+config/sanctum.php : Configuration de Sanctum (domaines autorisés, durée des tokens, etc.)
+Fichiers modifiés :
+app/Models/User.php : Ajout du trait HasApiTokens pour la gestion des tokens
+app/Http/Controllers/ApiController.php : Gestion du login et création des tokens
+app/Providers/AppServiceProvider.php : Configuration de Sanctum
+routes/api.php : Définition des routes API
+### Fonctionnement :
+Quand un utilisateur se connecte via l'API (/api/login)
+Laravel vérifie les credentials (email/password)
+Si valide, un token personnel est créé via Sanctum
+Ce token est renvoyé au client (Spring Boot dans notre cas)
+Les requêtes suivantes utiliseront ce token pour l'authentification
+>>>>>>> c6

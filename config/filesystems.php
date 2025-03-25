@@ -15,7 +15,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'default' => 'public',
+=======
+    'default' => 'local',
+>>>>>>> c6
 
     /*
     |--------------------------------------------------------------------------
@@ -45,7 +49,11 @@ return [
 
         'local' => [
             'driver' => 'local',
+<<<<<<< HEAD
             'root'   => storage_path('app'),
+=======
+            'root'   => storage_path('app/public'),
+>>>>>>> c6
         ],
 
         'public' => [

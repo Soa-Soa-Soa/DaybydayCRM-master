@@ -170,9 +170,28 @@
                     <a href="{{ route('integrations.index')}}"
                        class="list-group-item childlist"> <i
                                 class="bullet-point"><span></span></i> {{ __('Integrations') }}</a>
+<<<<<<< HEAD
                 </div>
             @endif
         </div>
+=======
+                    <!-- Ajout du nouveau lien Delete All Data -->
+                    <a href="{{ route('data.delete') }}" 
+                       onclick="return confirm('@lang('Are you sure you want to delete all data?')')"
+                       class="list-group-item childlist"> 
+                       <i class="bullet-point text-danger"><span></span></i> 
+                       <span class="text-danger">{{ __('Delete All Data') }}</span>
+                    </a>
+                </div>
+            @endif
+        </div>
+        @if(Entrust::hasRole('administrator') || Entrust::hasRole('owner'))
+        <a href="{{route('datagenerate')}}" class=" list-group-item"
+           data-parent="#MainMenu"><i
+            class="fa fa-database sidebar-icon"></i><span id="menu-txt">{{ __('Generate & Import Data') }}</span> 
+        </a>
+        @endif
+>>>>>>> c6
     </nav>
 
 

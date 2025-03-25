@@ -17,6 +17,11 @@ use App\Repositories\Format\GetDateFormat;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Dusk\DuskServiceProvider;
 use Laravel\Cashier\Cashier;
+<<<<<<< HEAD
+=======
+use Laravel\Sanctum\Sanctum;
+use App\Models\PersonalAccessToken;
+>>>>>>> c6
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -33,6 +38,10 @@ class AppServiceProvider extends ServiceProvider
         Lead::observe(LeadObserver::class);
         Project::observe(ProjectObserver::class);
         Invoice::observe(InvoiceObserver::class);
+<<<<<<< HEAD
+=======
+        Sanctum::usePersonalAccessTokenModel(PersonalAccessToken::class);
+>>>>>>> c6
     }
 
     /**
@@ -46,5 +55,9 @@ class AppServiceProvider extends ServiceProvider
             $this->app->register(DuskServiceProvider::class);
         }
         $this->app->singleton(GetDateFormat::class);
+<<<<<<< HEAD
+=======
+        Sanctum::ignoreMigrations();
+>>>>>>> c6
     }
 }

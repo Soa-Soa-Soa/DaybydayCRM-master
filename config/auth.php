@@ -42,7 +42,11 @@ return [
         ],
 
         'api' => [
+<<<<<<< HEAD
             'driver' => 'passport',
+=======
+            'driver' => 'sanctum',
+>>>>>>> c6
             'provider' => 'users',
         ],
     ],
@@ -68,6 +72,7 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
+<<<<<<< HEAD
             'table' => 'users',
 
         ],
@@ -76,6 +81,9 @@ return [
         //     'driver' => 'database',
         //     'table' => 'users',
         // ],
+=======
+        ],
+>>>>>>> c6
     ],
 
     /*
