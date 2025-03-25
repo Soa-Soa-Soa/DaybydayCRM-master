@@ -11,7 +11,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-<<<<<<< HEAD
+
         $this->call('StatusTableSeeder'); //oui
         $this->call('UsersTableSeeder'); //oui
         $this->call('IndustriesTableSeeder'); //oui
@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
         $this->call('RolesTablesSeeder'); //oui
         $this->call('RolePermissionTableSeeder'); //oui
         $this->call('UserRoleTableSeeder'); //oui
-=======
+
         // Exécuter les seeders une seule fois
         $this->call('StatusTableSeeder');
         $this->call('UsersTableSeeder');
@@ -32,6 +32,6 @@ class DatabaseSeeder extends Seeder
         $this->call('RolesTablesSeeder');
         $this->call('RolePermissionTableSeeder');
         $this->call('UserRoleTableSeeder');
->>>>>>> c6
+
     }
 }

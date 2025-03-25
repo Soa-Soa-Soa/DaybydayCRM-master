@@ -9895,7 +9895,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
   };
 
   // SELECTPICKER PLUGIN DEFINITION
-  // ==============================
+  // ==
   function Plugin (option) {
     // get the args of the outer function..
     var args = arguments;
@@ -10002,7 +10002,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
   $.fn.selectpicker.Constructor = Selectpicker;
 
   // SELECTPICKER NO CONFLICT
-  // ========================
+  // ===
   $.fn.selectpicker.noConflict = function () {
     $.fn.selectpicker = old;
     return this;
@@ -10016,7 +10016,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
     });
 
   // SELECTPICKER DATA-API
-  // =====================
+  // 
   $(window).on('load' + EVENT_KEY + '.data-api', function () {
     $('.selectpicker').each(function () {
       var $selectpicker = $(this);
@@ -175784,15 +175784,15 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
+
 __webpack_require__(/*! D:\DaybydayCRM-master\resources\assets\js\app.js */"./resources/assets/js/app.js");
 __webpack_require__(/*! D:\DaybydayCRM-master\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
 module.exports = __webpack_require__(/*! D:\DaybydayCRM-master\resources\assets\sass\vendor.scss */"./resources/assets/sass/vendor.scss");
-=======
+
 __webpack_require__(/*! C:\Users\Brady\Documents\Bosy\L3\S6\Eval\php\DaybydayCRM-master\resources\assets\js\app.js */"./resources/assets/js/app.js");
 __webpack_require__(/*! C:\Users\Brady\Documents\Bosy\L3\S6\Eval\php\DaybydayCRM-master\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
 module.exports = __webpack_require__(/*! C:\Users\Brady\Documents\Bosy\L3\S6\Eval\php\DaybydayCRM-master\resources\assets\sass\vendor.scss */"./resources/assets/sass/vendor.scss");
->>>>>>> c6
+
 
 
 /***/ }),

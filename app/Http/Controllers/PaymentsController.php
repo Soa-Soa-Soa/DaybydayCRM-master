@@ -87,8 +87,6 @@ class PaymentsController extends Controller
         session()->flash('flash_message', __('Payment successfully added'));
         return redirect()->back();
     }
-<<<<<<< HEAD
-=======
 
 
     public function updatePayment(Request $request, $external_id)
@@ -174,5 +172,4 @@ class PaymentsController extends Controller
             ], 500);
         }
     }
->>>>>>> c6
 }

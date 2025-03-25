@@ -58,8 +58,8 @@ _Create script sql to reset data
 [x] Extract table
 _Extract table from db
 
-<<<<<<< HEAD
-=======
+
+
 [x] Payment verification
 -Verify if amount requested is not greater tahn amount due
 -Add an error message if amount requested is greater than tahn amount due
@@ -133,11 +133,39 @@ _Extract table from db
     _[] Reduction rate
         - Add a global rate for invoice
 
->>>>>>> c6
 
 
+# Implémentation du système de remise globale
 
+## 1. Migrations ✅
+- [x] Créer migration pour la table `global_configs`
+- [x] Créer migration pour ajouter les champs de remise à la table `invoices`
+- [ ] Exécuter les migrations : `php artisan migrate`
 
+## 2. Modèles ✅
+- [x] Créer le modèle `GlobalConfig`
+- [x] Modifier le modèle [Invoice](cci:2://file:///d:/CRM-Final/DaybydayCRM-master/app/Models/Invoice.php:20:0-196:1) (ajout des champs et méthode calculateTotal)
+
+## 3. Contrôleurs à créer
+- [ ] Créer `ConfigController` avec :
+  - [ ] Méthode `getDiscountConfig()`
+  - [ ] Méthode `updateDiscountConfig()`
+- [ ] Modifier `InvoiceController` :
+  - [ ] Ajouter méthode `toggleDiscount()`
+  - [ ] Mettre à jour les méthodes create/update pour gérer les remises
+
+## 4. Routes API à ajouter
+- [ ] Routes pour la configuration :
+  ```php
+  Route::prefix('config')->group(function () {
+      Route::get('/discount', [ConfigController::class, 'getDiscountConfig']);
+      Route::post('/discount', [ConfigController::class, 'updateDiscountConfig']);
+  });
+
+## 5. Interface utilisateur (Vue/Templates)
+-[ ] Créer page de configuration des remises
+-[ ] Ajouter switch pour activer/désactiver la remise sur le formulaire de facture
+-[ ] Ajouter affichage des informations de remise sur la vue détaillée des factures
 
 
 

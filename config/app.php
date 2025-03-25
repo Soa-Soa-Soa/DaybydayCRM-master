@@ -128,10 +128,7 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
         App\Zizaco\Entrust\EntrustServiceProvider::class,
         Laravel\Cashier\CashierServiceProvider::class,
-<<<<<<< HEAD
-=======
         Laravel\Sanctum\SanctumServiceProvider::class,
->>>>>>> c6
         /*
          * Application Service Providers...
          */

@@ -342,10 +342,10 @@ class UsersController extends Controller
     {
         return User::whereExternalId($external_id)->firstOrFail();
     }
-<<<<<<< HEAD
-=======
+
+
     
->>>>>>> c6
+
     /**
      * @return \Illuminate\Database\Eloquent\Collection|static[]
      */
