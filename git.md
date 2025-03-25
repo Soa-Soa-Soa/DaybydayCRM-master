@@ -3,7 +3,7 @@ git init
 git add README.md   
 git commit -m "first commit"    
 git branch -M main      
-git remote add origin https://github.com/Tsikiniony/Daybyday.git
+git remote add origin https://github.com/Soa-Soa-Soa/DaybydayCRM-master.git
 git add . 
 git commit -m "Project commit" 
 git push origin main
